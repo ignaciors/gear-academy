@@ -1,0 +1,10 @@
+[workspace]
+members = ["io"]
+
+[package]
+name = "pebbles-game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pebbles-game-io = { path = "io" }
